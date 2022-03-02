@@ -23,6 +23,6 @@ exports.findFromSet = (value, recordset) =>{
     }
 }
 
-exports.currencyFormatter = (value) => {
+exports.numberFormatter = (value) => {
     return new Intl.NumberFormat().format(value);
 }

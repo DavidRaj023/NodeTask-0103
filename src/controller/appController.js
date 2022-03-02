@@ -40,14 +40,12 @@ class MainController {
         result: "No data Found"
         })
       }
-      const currency = util.currencyFormatter('1000000');
       
-
       info.forEach(detail => {
         maleDetails.push({
           "label" : detail.city,
           "value": detail.male,
-          "tooltext": "Total Male Population at Chennai : " + util.currencyFormatter(detail.male)
+          "tooltext": "Total Male Population at Chennai : " + util.numberFormatter(detail.male)
         });
       })
       
@@ -55,7 +53,7 @@ class MainController {
         femaleDetails.push({
           "label" : detail.city,
           "value": detail.female,
-          "tooltext": "Total Female Population at Chennai : " + util.currencyFormatter(detail.female)
+          "tooltext": "Total Female Population at Chennai : " + util.numberFormatter(detail.female)
         });
       });
 
