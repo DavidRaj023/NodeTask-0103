@@ -1,0 +1,147 @@
+City	Male	Female
+Chennai	7731950	626567
+Madurai	506967	149478
+Trichy	136676	641346
+Salem	410219	244457
+Eroda	952178	771378
+
+{
+    "code": "CTLAMO_001",
+    "message": "success",
+    "data": {
+        "malePopulation": [
+            {
+                "label": "Chennai",
+                "value": 7731950,
+                "tooltext": "Total Male Population at Chennai : 77,31,950"
+            },
+            {
+                "label": "Madurai",
+                "value": 506967,
+                "tooltext": "Total Male Population at Madurai : 5,06,967"
+            },
+            {
+                "label": "Trichy ",
+                "value": 136676,
+                "tooltext": "Total Male Population at Trichy : 1,36,676"
+            },
+            {
+                "label": "Salem",
+                "value": 470219,
+                "tooltext": "Total Male Population at Salem : 4,70,219"
+            },
+            {
+                "label": "Erode",
+                "value": 952178,
+                "tooltext": "Total Male Population at Erode : 9,52,178"
+            }
+        ],
+        "femalePopulation": [
+            {
+                "label": "Chennai",
+                "value": 626567,
+                "tooltext": "Total Female Population at Chennai : 6,26,567"
+            },
+            {
+                "label": "Madurai",
+                "value": 149478,
+                "tooltext": "Total Female Population at Madurai : 1,49,478"
+            },
+            {
+                "label": "Trichy",
+                "value": 641346,
+                "tooltext": "Total Female Population at Trichy : 6,41,346"
+            },
+            {
+                "label": "Salem",
+                "value": 244457,
+                "tooltext": "Total Female Population at Salem : 2,44,457"
+            },
+            {
+                "label": "Erode",
+                "value": 771378,
+                "tooltext": "Total Female Population at Erode : 7,71,378"
+            }
+        ],
+        "categories": [
+            {
+                "category": [
+                    {
+                        "label": "Chennai"
+                    },
+                    {
+                        "label": "Madurai"
+                    },
+                    {
+                        "label": "Trichy"
+                    },
+                    {
+                        "label": "Salem"
+                    },
+                    {
+                        "label": "Erode"
+                    }
+                ]
+            }
+        ]
+    }
+}
+
+
+........................................
+
+{
+    "code": "CTLAMO_001",
+    "message": "success",
+    "data": {
+        "columns": [
+            {
+                "title": "City",
+                "dataIndex": "city",
+                "key": "city"
+            },
+            {
+                "title": "Male",
+                "dataIndex": "male",
+                "key": "male"
+            },
+            {
+                "title": "Female",
+                "dataIndex": "female",
+                "key": "female"
+            }
+        ],
+        "dataSource": [
+            {
+                "key": 1,
+                "city": "DENVER",
+                "male": "5",
+                "female": "3"
+            },
+            {
+                "key": 2,
+                "city": "DENVER",
+                "male": "5",
+                "female": "3"
+            },
+            {
+                "key": 3,
+                "city": "DENVER",
+                "male": "5",
+                "female": "3"
+            },
+            {
+                "key": 4,
+                "city": "DENVER",
+                "male": "5",
+                "female": "3"
+            },
+            {
+                "key": 5,
+                "city": "DENVER",
+                "male": "5",
+                "female": "3"
+            }
+        ]
+    }
+}
